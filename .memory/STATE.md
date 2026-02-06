@@ -17,12 +17,12 @@
 - **v1.3.0:** Ребрандиране от svet-ai към ai-svetlio
 - **v1.3.1:** Пълно ребрандиране на всички файлове (~40 файла, ~5600 промени)
 - **v1.3.2:** Fix на VERSION константа в CLI
+- **v1.3.3:** Docs improvements — Context Refresh ~15, подробно инсталиране/деинсталиране, шаблони "старт"/"продължаваме"
 
 ## Публикувано
-- ✅ npm: ai-svetlio@1.3.2 (публикувано)
-- ✅ GitHub: github.com/SPartenev/Ai-Svetlio (commit 93f6b9f)
+- ✅ npm: ai-svetlio@1.3.3 (публикувано)
+- ✅ GitHub: github.com/SPartenev/Ai-Svetlio (commit a2d902c)
 
 ## Следваща стъпка
-1. Намаляване на Context Refresh от ~20 на ~15 съобщения
-2. По-подробно инсталиране/деинсталиране в USER_GUIDE.md
-3. Готови шаблони "старт" / "продължаваме" за потребителите
+1. `svetlio upgrade` команда — автоматично обновяване на CLAUDE.md/.cursorrules без да пипа .memory/
+2. По-добра интеграция с MCP Registry API (пагинация, детайлни резултати)
